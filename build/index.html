@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gulp Starter Project my LemonSchool</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Unica+One&family=Vollkorn:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+	<header class="header ">
+	<a class="header__logo" href="/">
+		IWMYWF
+
+
+
+	</a>
+	<div class="header__nav">
+		<div class="header__backdrop" id="headerBackdrop" onclick="navToggle()"></div>
+		<ul class="header__ul" id="headerUl">
+			<li class="header__li"><a class="header__a" href="/">Home</a></li>
+			<li class="header__li"><a class="header__a _active" href="/">About Me</a></li>
+			<li class="header__li"><a class="header__a" href="/">Works</a></li>
+			<li class="header__li"><a class="header__a" href="/">Blog</a></li>
+
+			
+	
+
+			<a class="header__btn" href="/">
+				<div class="header__link">Get in Touch</div>
+			</a>
+			<span class="material-icons icon-close" onclick="navToggle()">close</span>
+		</ul>
+
+		
+		<span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+	</div>
+</header>
+
+	
+	<section class="section-welcome">
+
+    <div class="section-welcome__background">
+        <div class="section-welcome__text">
+            <div class="section-welcome__title">
+                Hello!
+            </div>
+
+            <div class="section-welcome__desc">
+                And Welcome
+            </div>
+        </div>
+
+
+        <div class="section-welcome__middle">
+            <div class="section-welcome__img">
+                <img src="./img/welcome/magnit.png" alt="magnit">
+            </div>
+
+            <a href="/" class="section-welcome__btn">
+                Get Started
+            </a>
+
+        </div>
+
+
+        <div class="section-welcome__point">
+
+            <div class="section-welocome__figires">
+                01
+            </div>
+
+            <div class="section-welcome__desc-block">
+
+               <div class="section-welocome__figires-title">
+                Title 1
+               </div> 
+
+               <div class="section-selcome__figires-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus imperdiet sed id elementum. Quam vel aliquam sit vulputate.
+               </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <img src="./img/welcome/keybord.png" alt="keybord">
+
+
+</section>
+	<section class="function">
+  
+    
+    
+
+    <div class="function__text container">
+        <div class="imgafsas container">
+            <img   src="./img/group.png" alt="group" />
+        </div>
+        <div class="function__wow">
+            <div class="function__title">About Me</div>
+      <div class="function__pagem">
+        My passion for building websites started since 2013 and since then i
+        have helped companies around the world build amazing websites and
+        products that create real value for the business and users.
+      </div>
+      <div class="function__pagei">
+        I enjoy solving problems with clean scalable solutions and I also have a
+        genuine passion for inspiring design.
+      </div>
+      <div class="function__pagea">
+        I am a fullstack developer focusing on core frontend and backend
+        technologies which include HTML, CSS, Javascript, React and other core
+        languages
+      </div>
+    </div>
+
+        </div>
+      
+
+
+
+  
+    
+  
+  
+</section>
+
+
+	<footer class="footer">
+	<div>Footer</div>
+</footer>
+
+	<script src="./js/index.bundle.js"></script>
+	<script>
+		function navToggle() {
+			document.getElementById("headerUl").classList.toggle("_active");
+			document.getElementById("headerBackdrop").classList.toggle("_active");
+		}
+	</script>
+</body>
+
+</html>

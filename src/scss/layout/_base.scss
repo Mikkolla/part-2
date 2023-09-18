@@ -1,0 +1,15 @@
+html, body {
+	height: 100%;
+}
+body {
+	font-family: var(--ff);
+	background: var(--Blue-background, #3D5A80);
+
+}
+.container {
+	max-width: 1026px;
+	margin-inline: auto;
+}
+.main {
+	padding: 220px;
+}
