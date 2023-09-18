@@ -1,10 +1,16 @@
+.section-header{
+  background: #2F3746;
+}
+
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	max-width: 1300px;
-	padding-top: 34px;
+	padding-top: 20px;
+  padding-bottom: 20px;
 	margin-inline: auto;
+  
 	
 			
 	
@@ -12,10 +18,14 @@
   &__logo {
     color: var(--White, #fff);
     font-family: Open Sans;
-    font-size: 18px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  
+    display: flex;
+    gap: 10px;
+    align-items: center;
   }
 
   &__nav {

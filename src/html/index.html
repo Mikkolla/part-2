@@ -17,7 +17,14 @@
 	@@include('blocks/header.html')
 	
 	@@include('components/section/section-welcome.html')
+	
 	@@include('components/section/section-function.html')
+
+	@@include('components/section/section-curses.html')
+
+	@@include('components/section/section-curses.html')
+
+	@@include('components/section/section-front.html')
 
 	@@include('blocks/footer.html')
 	<script src="./js/index.bundle.js"></script>
@@ -26,6 +33,16 @@
 			document.getElementById("headerUl").classList.toggle("_active");
 			document.getElementById("headerBackdrop").classList.toggle("_active");
 		}
+
+		$('.menu_item').each( function(index, el){
+	$(el).height( $(el).find('.title').height() )
+})
+
+$('.menu_item').hover( function(){
+	$(this).height('auto')
+}, function(){
+	$(this).height( $(this).find('.title').height() )
+})
 	</script>
 </body>
 

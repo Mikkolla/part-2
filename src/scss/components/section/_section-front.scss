@@ -1,0 +1,56 @@
+.section-front {
+    background-image: url(../img/web.jpg);
+    height: 750px;
+    
+
+    &__container{
+        position: relative;
+    }
+
+    &__bg{
+        position: absolute;
+        
+        
+       height: 100%;
+        object-fit: cover;
+        height: 100%;
+        top: 0;
+        width: 100%;
+    }
+
+
+    &__container {
+    }
+
+    &__about {
+        position: absolute;
+        
+        
+       height: 100%;
+        object-fit: cover;
+        height: 100%;
+        top: 0;
+        width: 100%;
+    }
+
+    &__link {
+    }
+
+    &__title {
+    }
+
+    &__objects {
+    }
+
+    &__objects1 {
+    }
+
+    &__figers {
+    }
+
+    &__desc {
+    }
+
+    &__objects2 {
+    }
+}
